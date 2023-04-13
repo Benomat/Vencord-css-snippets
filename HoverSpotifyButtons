@@ -1,0 +1,11 @@
+/*rotate spotify buttons*/
+.vc-spotify-button .vc-spotify-button-icon {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+.vc-spotify-button:hover .vc-spotify-button-icon {
+    transform: rotate(35deg);
+}
+.vc-spotify-button-row:hover .vc-spotify-button:not(:hover) .vc-spotify-button-icon{
+    transform: rotate(8deg);/*put this value to 0 if you think it looks shit :( */
+}
